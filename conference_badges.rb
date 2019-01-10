@@ -26,7 +26,7 @@ def printer(n)
   badge_messages = batch_badge_creator(n)
   badge_messages.each do |message|
     puts message
-  room_messages = assign_rooms(speakers)
+  room_messages = assign_rooms(n)
   room_messages.each do |message|
     puts message
   end
