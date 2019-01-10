@@ -27,7 +27,6 @@ def printer(speakers)
   badge_messages = batch_badge_creator(speakers)
   badge_messages.each do |message|
     puts message
-
   room_messages = assign_rooms(speakers)
   room_messages.each do |message|
     puts message
