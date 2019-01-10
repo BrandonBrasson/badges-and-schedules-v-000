@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-puts describe 'conference_badges' do
+ describe 'conference_badges' do
 
   let(:name) {"Arel"}
   let(:attendees) {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
