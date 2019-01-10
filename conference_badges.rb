@@ -16,7 +16,7 @@ def assign_rooms(n)
   # return a list of room assignments in the form of: "Hello____! You'll be assigned to room ___!"
   room_number = 1
   room_messages = []
-  n.each do |n|
+  speakers.each do |speaker|
     room_messages << "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
     room_number += 1
   end
