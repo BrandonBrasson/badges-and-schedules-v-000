@@ -1,6 +1,7 @@
 def badge_maker(n)
   return "Hello, my name is #{n}."
 end
+
 def batch_badge_creator(speakers)
   # returns an array of badge messages, using badge_maker
   badge_messages = []
@@ -8,7 +9,7 @@ def batch_badge_creator(speakers)
     message = badge_maker(speaker)
     badge_messages << message
   end
-  badge_messages
+  returns badge_messages
 end
 
 def assign_rooms(speakers)
@@ -20,7 +21,7 @@ def assign_rooms(speakers)
     room_messages << "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
     room_number += 1
   end
-  
+  room_messages
 end
 
 
