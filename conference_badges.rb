@@ -27,7 +27,7 @@ def printer(n)
   badge_messages.each_with_index do |n|
     puts message
   room_messages = assign_rooms(n)
-  room_messages.each_with_index do |message|
+  room_messages.each_with_index do |n|
     puts message
   end
 end
