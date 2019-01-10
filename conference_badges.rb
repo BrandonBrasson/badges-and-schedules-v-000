@@ -5,7 +5,7 @@ end
 def creator(n)
   # returns an array of badge messages, using badge_maker
   badge_messages = []
-  n.each do |speaker|
+  n.each do |n|
     message = badge_maker(n)
     badge_messages << message
   end
@@ -15,7 +15,7 @@ end
 def assign_rooms(n)
   room_number = 1
   room_messages = []
-  n.each do |roomstogo|
+  n.each do |n|
     room_messages << "Hello, #{n}! You'll be assigned to room #{room_number}!"
     room_number += 1
   end
