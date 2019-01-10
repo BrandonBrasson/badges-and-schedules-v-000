@@ -20,8 +20,9 @@ def assign_rooms(speakers)
     room_messages << "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
     room_number += 1
   end
-  room_messages
+  
 end
+
 
 def printer(speakers)
   # outputs the results of batch_badge_creator, and assign_rooms
