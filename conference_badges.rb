@@ -9,7 +9,7 @@ def batch_badge_creator(speakers)
     message = badge_maker(speaker)
     badge_messages << message
   end
-  returns badge_messages
+  return badge_messages
 end
 
 def assign_rooms(speakers)
