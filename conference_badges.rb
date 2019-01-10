@@ -12,10 +12,10 @@ def creator(n)
   badge_messages
 end
 
-def rooms(n)
+def assign_rooms(n)
   room_number = 1
   room_messages = []
-  n.each do |speaker|
+  n.each do |roomstogo|
     room_messages << "Hello, #{n}! You'll be assigned to room #{room_number}!"
     room_number += 1
   end
