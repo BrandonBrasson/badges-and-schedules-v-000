@@ -18,7 +18,7 @@ def assign_rooms(speakers)
   room_number = 1
   room_messages = []
   speakers.each do |speaker|
-    return room_messages << "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
+  room_messages << "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
     room_number += 1
   end
   return room_messages
@@ -34,5 +34,6 @@ def printer(speakers)
   room_messages = assign_rooms(speakers)
   room_messages.each do |message|
     puts message
-  end
+ end
+return []
 end
