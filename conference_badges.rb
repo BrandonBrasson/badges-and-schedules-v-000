@@ -6,8 +6,8 @@ def creator(n)
   # returns an array of badge messages, using badge_maker
   badge_messages = []
   n.each do |n|
-    message = badge_maker(n)
-    badge_messages << message
+    n = badge_maker(n)
+    badge_messages << n
   end
   badge_messages
 end
